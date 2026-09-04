@@ -892,13 +892,13 @@
         <div class="portal-box">
           <div class="portal-box-label">
             <span>Merchant Login Endpoint</span>
-            <span style="color: var(--rzp-blue-light);">Local & Staging</span>
+            <span style="color: var(--rzp-emerald);">● Online</span>
           </div>
           <div class="portal-url-row">
-            <a href="http://localhost:3000/merchant/" target="_blank" rel="noopener noreferrer" id="merch-link">
-              http://localhost:3000/merchant/
+            <a href="https://shopi-ai-commerce-platform-shop-two.vercel.app/merchant-sign-in" target="_blank" rel="noopener noreferrer" id="merch-link">
+              https://shopi-ai-commerce-platform-shop-two.vercel.app/merchant-sign-in
             </a>
-            <button class="btn-rzp-icon" onclick="copyValue('http://localhost:3000/merchant/', this)" title="Copy URL">
+            <button class="btn-rzp-icon" onclick="copyValue('https://shopi-ai-commerce-platform-shop-two.vercel.app/merchant-sign-in', this)" title="Copy URL">
               📋
             </button>
           </div>
@@ -933,7 +933,7 @@
           </div>
         </div>
 
-        <a href="http://localhost:3000/merchant/" target="_blank" rel="noopener noreferrer" class="btn-rzp-launch">
+        <a href="https://shopi-ai-commerce-platform-shop-two.vercel.app/merchant-sign-in" target="_blank" rel="noopener noreferrer" class="btn-rzp-launch">
           <span>Open Merchant Dashboard</span>
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
         </a>
@@ -1086,7 +1086,7 @@
           renderQR('customer-qr-code', 'https://shopi-ai-commerce-platform-shop-two.vercel.app/');
           isCustomerQRInit = true;
         } else if (id === 'merchant-qr-box' && !isMerchantQRInit) {
-          renderQR('merchant-qr-code', 'http://localhost:3000/merchant/');
+          renderQR('merchant-qr-code', 'https://shopi-ai-commerce-platform-shop-two.vercel.app/merchant-sign-in');
           isMerchantQRInit = true;
         }
       }
